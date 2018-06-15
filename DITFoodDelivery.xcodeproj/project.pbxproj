@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		4C5C694D20D3912A00922D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C694C20D3912A00922D95 /* AppDelegate.swift */; };
-		4C5C694F20D3912A00922D95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C694E20D3912A00922D95 /* ViewController.swift */; };
 		4C5C695220D3912A00922D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C695020D3912A00922D95 /* Main.storyboard */; };
 		4C5C695420D3912A00922D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C695320D3912A00922D95 /* Assets.xcassets */; };
 		4C5C695720D3912A00922D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C695520D3912A00922D95 /* LaunchScreen.storyboard */; };
+		4C5C696020D391AD00922D95 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5C695F20D391AD00922D95 /* MapKit.framework */; };
+		4C5C696620D394C800922D95 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C696520D394C800922D95 /* MyTableViewController.swift */; };
+		4C5C696A20D395B200922D95 /* FoodStoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C696920D395B200922D95 /* FoodStoreTableViewCell.swift */; };
+		4C5C696C20D39AFD00922D95 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C696B20D39AFD00922D95 /* DetailViewController.swift */; };
+		4C5C696E20D39EAD00922D95 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C696D20D39EAD00922D95 /* MapTableViewCell.swift */; };
+		4C5C697020D3A7EB00922D95 /* TotalMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C696F20D3A7EB00922D95 /* TotalMapViewController.swift */; };
+		4C5C697220D3AB6D00922D95 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C697120D3AB6D00922D95 /* MapViewController.swift */; };
+		4C5C697420D3B17300922D95 /* FoodStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C697320D3B17300922D95 /* FoodStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C5C694920D3912A00922D95 /* DITFoodDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DITFoodDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5C694C20D3912A00922D95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C5C694E20D3912A00922D95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C5C695120D3912A00922D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C5C695320D3912A00922D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C5C695620D3912A00922D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C5C695820D3912B00922D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5C695F20D391AD00922D95 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4C5C696520D394C800922D95 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		4C5C696920D395B200922D95 /* FoodStoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStoreTableViewCell.swift; sourceTree = "<group>"; };
+		4C5C696B20D39AFD00922D95 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4C5C696D20D39EAD00922D95 /* MapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		4C5C696F20D3A7EB00922D95 /* TotalMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMapViewController.swift; sourceTree = "<group>"; };
+		4C5C697120D3AB6D00922D95 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4C5C697320D3B17300922D95 /* FoodStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5C696020D391AD00922D95 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,7 @@
 			children = (
 				4C5C694B20D3912A00922D95 /* DITFoodDelivery */,
 				4C5C694A20D3912A00922D95 /* Products */,
+				4C5C695E20D391AC00922D95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +70,60 @@
 		4C5C694B20D3912A00922D95 /* DITFoodDelivery */ = {
 			isa = PBXGroup;
 			children = (
-				4C5C694C20D3912A00922D95 /* AppDelegate.swift */,
-				4C5C694E20D3912A00922D95 /* ViewController.swift */,
-				4C5C695020D3912A00922D95 /* Main.storyboard */,
-				4C5C695320D3912A00922D95 /* Assets.xcassets */,
-				4C5C695520D3912A00922D95 /* LaunchScreen.storyboard */,
-				4C5C695820D3912B00922D95 /* Info.plist */,
+				4C5C696420D392AA00922D95 /* Storyboard */,
+				4C5C696320D3929C00922D95 /* View */,
+				4C5C696220D3927500922D95 /* Model */,
+				4C5C696120D3922800922D95 /* Controller */,
 			);
 			path = DITFoodDelivery;
+			sourceTree = "<group>";
+		};
+		4C5C695E20D391AC00922D95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C695F20D391AD00922D95 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C5C696120D3922800922D95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C697120D3AB6D00922D95 /* MapViewController.swift */,
+				4C5C696F20D3A7EB00922D95 /* TotalMapViewController.swift */,
+				4C5C696B20D39AFD00922D95 /* DetailViewController.swift */,
+				4C5C696520D394C800922D95 /* MyTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C5C696220D3927500922D95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C697320D3B17300922D95 /* FoodStore.swift */,
+				4C5C694C20D3912A00922D95 /* AppDelegate.swift */,
+				4C5C695320D3912A00922D95 /* Assets.xcassets */,
+				4C5C695820D3912B00922D95 /* Info.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C5C696320D3929C00922D95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C696D20D39EAD00922D95 /* MapTableViewCell.swift */,
+				4C5C696920D395B200922D95 /* FoodStoreTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C5C696420D392AA00922D95 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C695020D3912A00922D95 /* Main.storyboard */,
+				4C5C695520D3912A00922D95 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +198,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C5C694F20D3912A00922D95 /* ViewController.swift in Sources */,
+				4C5C696620D394C800922D95 /* MyTableViewController.swift in Sources */,
+				4C5C697020D3A7EB00922D95 /* TotalMapViewController.swift in Sources */,
+				4C5C696E20D39EAD00922D95 /* MapTableViewCell.swift in Sources */,
+				4C5C696C20D39AFD00922D95 /* DetailViewController.swift in Sources */,
 				4C5C694D20D3912A00922D95 /* AppDelegate.swift in Sources */,
+				4C5C697420D3B17300922D95 /* FoodStore.swift in Sources */,
+				4C5C696A20D395B200922D95 /* FoodStoreTableViewCell.swift in Sources */,
+				4C5C697220D3AB6D00922D95 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DITFoodDelivery/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DITFoodDelivery/Model/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ViaArcher.IceArrow.DITFoodDelivery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DITFoodDelivery/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DITFoodDelivery/Model/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ViaArcher.IceArrow.DITFoodDelivery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
